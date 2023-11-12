@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url(https://drive.google.com/file/d/1sj7LbTzx04-JlHICKdntWdeb143-Zrme/view?pli=1);
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.boutique-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.boutique-item {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px #ccc;
+    max-width: 300px;
+}
+
+.boutique-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.boutique-item h2 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.boutique-item p {
+    font-size: 16px;
+}
+
+.boutique-item a {
+    display: block;
+    margin-top: 15px;
+    text-decoration: none;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.boutique-item a:hover {
+    background-color: #555;
+}
+.boutique-item img {
+    width: 200px; /* Définissez la largeur souhaitée */
+    height: 220px; /* Définissez la hauteur souhaitée */
+}
+
+
